@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- google font -->
+ <style>   
+.manrope-font {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>  
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-b from-[#080738] via-[#4b4599] to-[#080738] overflow-x-hidden manrope-font "
+  >
+    <header>
+      <nav>
+        <div class=" ">
+            <div class="navbar-start ">
+              <div class="dropdown  ">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg 
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16"
+                    />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class=" dropdown-content bg-purple-200 rounded-box z-1 mt-3 w-52 p-2  "
+                >
+                  <li ><a class="text-black" >Our Special Menu</a></li>
+                  <li>
+                    <a class="text-black">Food</a>
+                    <ul class="p-2">
+                      <li><a>Food Item 1</a></li>
+                      <li><a>Food Item 2</a></li>
+                      <li><a>Food Item 3</a></li>
+                      <li><a>See more ...</a></li>
+                    </ul>
+                  </li>
+                  <li><a>Item 2</a>
+
+
+                </li>
+                  
+                </ul>
+              </div>
+              <a class="  text-amber-400 text-4xl"><span>🥘</span>   Flavor Haven</a>
+            </div>
+            <div class="navbar-center hidden lg:flex gap-5 px-4">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-bold text-4xl text-white">Home</a></li>
+                <li>
+                  <details>
+                    <summary class="text-4xl text-white font-bold">Menu Card</summary>
+                    <p>Item-List</p>
+                    <ul class="p-2">
+                    
+                      <li><a><span>1 </span>Bengali</a></li>
+                      <li><a><span>2 </span>Italian</a></li>
+                      <li><a><span>3 </span>chinese</a></li>
+                      <li><a><span>4 </span>Drinks</a></li>
+                      <li><a>See more</a></li>
+
+                    </ul>
+                  </details>
+                </li>
+                <li><a class="text-white font-bold text-4xl"> About Us</a></li>
+              </ul>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+
+      <div class="mt-16">
+        <h1 class="text-7xl font-bold text-white text-center mb-4">  Welcome to <span class="text-amber-400 hover:text-purple-600">Flavor Haven</span>
+</h1>
+<p class="text-lg   text-gray-200 text-center max-w-xl mx-auto">Experience the perfect blend of taste and ambiance. From freshly prepared dishes to a cozy atmosphere, 
+  we serve happiness on every plate.</p>
+
+      </div>
+      <div class="flex justify-center items-center p-4 mb-10 ">
+<button class="btn  btn-wide text-lg hover:bg-pink-700 flex gap-5 items-center hover:text-white  mt-10 ">Explore More <i class="fa-solid fa-arrow-right text-lg "></i></button>
+      </div>
+  
+    </header>
+    <main >
+        <section class="mt-10 ">
+            <div class="flex items-center justify-center flex-col md:flex md:flex-col md:justify-center">
+                <h2 class="text-4xl font-semibold text-white mb-4">Our Special Menu Awaits You</h2>
+                <p class="text-gray-300 max-w-2xl mb-6">
+    Explore a wide variety of flavors – from classic Bengali delicacies to exotic 
+    international dishes, crafted with love and fresh ingredients.
+  </p>
+            </div>
+             <h2 class="text-3xl text-white ml-10">Burger Items <span>🍔</span></h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 ">
+     
+                <!-- card 1 -->
+   <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Our Special Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">900 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+
+        <!-- card 2 -->
+             <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Chicken Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">600 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+        <!-- card-3 -->
+           <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken cheese Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Chicken Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">600 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+        <!-- card 4 -->
+         <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">cheese Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">600 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+        <!-- card 5 -->
+            <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Student Special Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">150 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+        <!-- card 6 -->
+           <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Beef Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">600 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+        <!-- card 7 -->
+         <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Vegetable Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">200 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+        <!-- card 8 -->
+         <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg" 
+    alt="Chicken Burger"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Beef Naga Burger</h3>
+  
+  <p class="text-gray-700 text-base text-center mt-2">
+    Juicy grilled burger with fresh lettuce, tomatoes, cheese, and our special sauce.
+  </p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">520 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+                    
+    </div>
+  <button class="text-white text-2xl ml-8">See more...</button>  
+        </section>
+  <section>
+    <div>
+        <h3 class="text-white text-3xl  ml-10 mt-8">Drinks Items <span>🍹</span></h3>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 ">
+        <!-- card 1 -->
+ <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/abhishek-hajare-kkrXVKK-jhg-unsplash.jpg" 
+    alt="Orange Juice"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Orange Juice</h3>
+  
+ <p class="text-gray-700 text-base text-center mt-2">
+  Freshly squeezed orange juice, full of vitamin C and natural sweetness.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">180 Tk</span>
+  </p>
+  
+ 
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+<!-- card 2 -->
+ <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/olivier-guillard-AjG1BkDH4Zs-unsplash.jpg" 
+    alt="Papaya Juice"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Papaya Juice</h3>
+  
+<p class="text-gray-700 text-base text-center mt-2">
+  Creamy papaya juice  – smooth, sweet, and nourishing.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">100 Tk</span>
+  </p>
+  
+ 
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+<!-- card 3 -->
+ <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-[445px] mx-auto mb-4" 
+    src="./Image/rohollah-saberi-21QZGQKpOYE-unsplash.jpg" 
+    alt="Watermelon Juice"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Watermelon Juice</h3>
+  
+ <p class="text-gray-700 text-base text-center mt-2">
+  Freshly squeezed orange juice, full of vitamin C and natural sweetness.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">200 Tk</span>
+  </p>
+  
+ 
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+<!-- card 4 -->
+ <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/abhishek-hajare-kkrXVKK-jhg-unsplash.jpg" 
+    alt="Orange Juice"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Special Orange Juice</h3>
+  
+ <p class="text-gray-700 text-base text-center mt-2">
+  Freshly squeezed orange juice, full of vitamin C and natural sweetness.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">250 Tk</span>
+  </p>
+  
+ 
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+    </div>
+    <button class="text-white text-2xl ml-7">See more...</button> 
+
+<h3 class="text-white text-3xl  ml-10 mt-8 p-4">Coffee Items <span>🍵</span></h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4">
+<!-- card 1 -->
+   <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/nathan-dumlao-zUNs99PGDg0-unsplash.jpg" 
+    alt="cappuccino"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Cappuccino</h3>
+  
+ <p class="text-gray-700 text-base text-center mt-2">
+  A classic cappuccino topped with rich, creamy froth and a bold espresso base.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">300 Tk</span>
+  </p>
+  
+  <!-- See more button / link -->
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+
+<!-- card 2 -->
+ <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/clay-banks-_wkd7XBRfU4-unsplash.jpg" 
+    alt="Hot Coffee"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Hot Coffee</h3>
+  
+ <p class="text-gray-700 text-base text-center mt-2">
+  A steaming cup of hot coffee to kickstart your day.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">100 Tk</span>
+  </p>
+  
+ 
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+<!-- card 3 -->
+ <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/nathan-dumlao-vZOZJH_xkUk-unsplash.jpg" 
+    alt="Iced Coffee"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Iced Coffee</h3>
+  
+ <p class="text-gray-700 text-base text-center mt-2">
+A refreshing chilled coffee served over ice, perfect for hot days.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">180 Tk</span>
+  </p>
+  
+ 
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+<!-- card 4 -->
+ <div class="rounded-lg p-4 flex flex-col items-center bg-gray-100 shadow">
+  <img 
+    class="rounded-lg w-full max-w-[300px] h-auto mx-auto mb-4" 
+    src="./Image/clay-banks-_wkd7XBRfU4-unsplash.jpg" 
+    alt="coffee"
+  >
+  
+  <h3 class="text-black text-xl font-bold text-center">Our Special Coffee</h3>
+  
+ <p class="text-gray-700 text-base text-center mt-2">
+ A warm, aromatic drink made from roasted coffee beans.
+</p>
+  
+  <p class="text-lg font-semibold mt-2">
+    Price Only : <span class="text-pink-600">180 Tk</span>
+  </p>
+  
+ 
+  <a href="#"
+     class="text-blue-800 text-lg mt-2 hover:underline">
+     See more...
+  </a>
+</div>
+ 
+    </div>
+    <button class="text-white text-2xl ml-7">See more...</button> 
+  </section>
+    </main>
+  </body>
+</html>
